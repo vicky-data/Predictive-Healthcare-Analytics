@@ -41,22 +41,29 @@ This project follows the **CRISP-DM (Cross-Industry Standard Process for Data Mi
 
 ## 🧩 Project Architecture
 
-├── data/
-│ ├── raw/ # Raw dataset
-│ └── processed/ # Cleaned and transformed data
-├── models/ # Trained ML models (joblib files)
-├── notebooks/
-│ └── visualization_tool.ipynb # Visualization & analysis
-├── reports/
-│ ├── methodology_report.md # CRISP-DM methodology documentation
-│ └── findings_report.md # Results & insights
-├── src/
-│ ├── data_preprocessing.py # Data cleaning and feature engineering
-│ ├── model_training.py # Model training scripts
-│ ├── model_evaluation.py # Model evaluation and comparison
-│ ├── model_refinement.py # Hyperparameter tuning and feature importance
-└── README.md # Project documentation
+📂 Project Structure
 
+├── data/
+│ ├── 📁 raw/ → Raw dataset
+│ └── 📁 processed/ → Cleaned and transformed data
+
+├── models/
+│ └── 🧠 Trained ML models (Joblib files)
+
+├── notebooks/
+│ └── 📓 visualization_tool.ipynb → Visualization & analysis notebook
+
+├── reports/
+│ ├── 🧾 methodology_report.md → CRISP-DM methodology documentation
+│ └── 📊 findings_report.md → Results & insights
+
+├── src/
+│ ├── 🧹 data_preprocessing.py → Data cleaning and feature engineering
+│ ├── 🧠 model_training.py → Model training scripts
+│ ├── 📈 model_evaluation.py → Model evaluation and comparison
+│ └── ⚙️ model_refinement.py → Hyperparameter tuning and feature importance
+
+└── README.md → Project documentation
 
 ---
 
